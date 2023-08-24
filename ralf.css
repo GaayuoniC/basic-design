@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+    padding: 20px;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+.box-1 {
+    position: relative;
+    font-size: 1.2em;
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+    color: rgb(79, 197, 97);
+    background-color: blue;
+}
+.box-2 {
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    background-color: #e5e2ed;
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+}
